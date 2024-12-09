@@ -87,7 +87,7 @@ const VerifyOtp = ({email}) => {
             </React.Fragment>
           ))}
         </div>
-        <button onClick={verifyHandler} disabled={!isCodeComplete} className={`${isCodeComplete ? 'cursor-default': 'cursor-not-allowed' } bg-red-500 text-white w-full py-2 rounded-md hover:bg-red-600 transition`}>
+        <button onClick={verifyHandler} disabled={!isCodeComplete} className={`${isCodeComplete ? 'cursor-pointer': 'cursor-not-allowed' } bg-red-500 text-white w-full py-2 rounded-md hover:bg-red-600 transition`}>
           Verify
         </button>
         {resendCode ? (
