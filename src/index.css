@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .verify-card-1 {
+        position: relative;
+        left: calc(25% + 16px);
+    }
+
+    .first-circle {
+        overflow: hidden;
+        position: absolute;
+        top: 25%;
+        left: -48%;
+        background-color: #09001721;
+        border-radius: 100%;
+        height: 800px;
+        width: 800px;
+        box-shadow: -10px -10px 100px 100px #09001721,
+        100px 20px 40px 20px #3e1bbc28,
+        50px 70px 150px 100px #9413b424,
+        0px 0px 100px 10px #9413b424 inset;
+    }
+
+    .second-circle {
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        background-color: #3F1BBC99;
+        border-radius: 100%;
+        /* border-left: 1px solid rgba(0, 0, 0, 0.242); */
+        height: 630px;
+        width: 630px;
+        backdrop-filter: blur(350px);
+        transform: rotate(-14.9deg);
+        box-shadow: -10px -10px 100px 120px #3F1BBC99,
+        -1px 1px 1px 1px rgba(0, 0, 0, 0.242);
+    }
+    .third-circle{
+        position: absolute;
+        top: 34%;
+        left: 70%;
+        background-color: #9513B4B2;
+        border-radius: 100%;
+        height: 500px;
+        width: 500px;
+        backdrop-filter: blur(120px);
+        transform: rotate(-14.9deg);
+        box-shadow: 10px 10px 50px 50px #9513B4B2;
+    }
+    .fourth-circle{
+        position: absolute;
+        top: 45%;
+        left: 90%;
+        background-color:#E38602;
+        border-radius: 100%;
+        height: 250px;
+        width: 250px;
+        backdrop-filter: blur(120px);
+        transform: rotate(-14.9deg);
+        box-shadow: -2px -2px 60px 60px #E38602;
+    }
+
+}
