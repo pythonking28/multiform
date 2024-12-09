@@ -60,7 +60,7 @@ const VerifyOtp = ({email}) => {
 
   return (
     <div className="bg-white p-8 rounded-lg">
-      <img src="src/assets/logo.png" alt="Logo" className="h-10 mb-16" />
+      <img src="/logo.png" alt="Logo" className="h-10 mb-16" />
       <div className="w-3/5">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">
           Verify your Email
