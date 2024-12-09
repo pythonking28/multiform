@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const branches = [
   {
     country: "Singapore",
-    image: "src/assets/singapore.png",
+    image: "public/singapore.png",
     type: "Head Office",
     company: "XYZ Pvt. Ltd.",
     address: "Road to nowhere, 06-404, 500 Internal Error",
@@ -13,7 +13,7 @@ const branches = [
   },
   {
     country: "Hong Kong",
-    image: "src/assets/hongkong.png",
+    image: "public/hongkong.png",
     type: "Branches",
     company: "XYZ Pte. Ltd.",
     address: "The Infinite Loop Office, 404 Timeout Plaza",
@@ -21,7 +21,7 @@ const branches = [
   },
   {
     country: "USA",
-    image: "src/assets/united.png",
+    image: "public/united.png",
     type: "Branches",
     company: "XYZ Inc.",
     address: "Nulltown, Buglandia, 500 0xDEADBEE",
