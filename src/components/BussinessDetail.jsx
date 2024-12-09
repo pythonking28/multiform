@@ -207,12 +207,14 @@ const BussinessDetail = () => {
             <div className="col-span-2 flex justify-between mt-6">
               <button
                 type="button"
+                onClick={(e)=> e.preventDefault()}
                 className="bg-white border-[2px] border-black text-gray-800 px-4 py-2 rounded-xl shadow hover:bg-gray-300"
               >
                 Previous
               </button>
               <button
                 type="submit"
+                onClick={(e)=> e.preventDefault()}
                 className="bg-red-600 text-white px-6 py-2 rounded-lg shadow hover:bg-red-700"
               >
                 Next
