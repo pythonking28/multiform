@@ -43,6 +43,7 @@ const SignUpPage = ({ email, setEmail }) => {
 
               <button
                 onClick={signUpHandler}
+                disabled={!email}
                 className={`${email ? 'cursor-pointer' : 'cursor-not-allowed'} bg-red-500 text-white w-full py-2 rounded-md hover:bg-red-600 transition mt-6`}
               >
                 SignUp
