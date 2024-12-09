@@ -25,7 +25,7 @@ const SignUpPage = ({ email, setEmail }) => {
               <div className="flex flex-col gap-1 w-full">
                 <label htmlFor="email">Email:</label>
                 <input
-                  type="email"
+                  type="text"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="border-2 border-gray-200 outline-none px-3 py-1 w-3/4 rounded-lg"
